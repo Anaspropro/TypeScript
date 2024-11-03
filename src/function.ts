@@ -16,7 +16,7 @@ function addingAndHandle(n1: number, n2: number, cb: (num: number) => void){
 
 let combineValue: (a: number, b: number) => number
 combineValue = adding
-console.log(combineValue(1, 2));23   
+console.log(combineValue(1, 2));23  
 
 addingAndHandle(10, 12, (result) =>{
   console.log(result)
