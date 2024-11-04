@@ -15,3 +15,32 @@ let myUser: Userr = {
 myUser.name = "Anas"
 
 console.log(myUser)
+
+const superHeros: string[] = []
+const heroPower: number[] = []
+
+superHeros.push("spiderman")
+
+heroPower.push(3)
+
+// Array
+
+const allUser: Userr[] = [
+  { _id: '2',
+    name: 'Ade',
+    isActive: true,
+    email: 'anas@vb.com',
+    creditCard: 4322
+  },
+  { _id: '2',
+    name: 'Ade',
+    isActive: true,
+    email: 'anas@vb.com',
+    creditCard: 4322
+  },
+]
+
+const MlModel: number[][] = [
+  [223, 223, 223],
+  [56, 18, 9]
+]
