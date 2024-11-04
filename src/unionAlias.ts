@@ -22,3 +22,36 @@ console.log(combineAges);
 const combineName = combine('Anas', 'Aliu', 'as-text')
 console.log(combineName);
 
+let score: number | string = 33
+
+type Usser = {
+  name: string,
+  id: number
+}
+type Admin = {
+  username: string,
+  id: number
+}
+
+let Ayomide: Usser | Admin = {name: "Ayomide", id: 22}
+
+Ayomide = {username: "Ay", id: 33}
+
+function getDbId(id: number | string){
+  console.log(`Db id is ${id}`)
+}
+
+getDbId(3)
+getDbId('4')
+
+function getId(id: number | string){
+  if(typeof id === "string"){
+    id.toLowerCase()
+  }
+}
+
+// array
+
+const data: number [] = [1, 2, 3]
+const data2:  string[] = ["1", "2", "3"]
+const data3: (number | string | boolean)[] = ["1", "2", 9, false]
