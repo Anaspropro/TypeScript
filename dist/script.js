@@ -1,2 +1,3 @@
 "use strict";
-const user = ["an", 1];
+const hcSeat = "middle";
+console.log(hcSeat);
